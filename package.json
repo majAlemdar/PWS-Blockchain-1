@@ -1,0 +1,19 @@
+{
+  "name": "blockchain_1",
+  "version": "1.0.0",
+  "main": "networkNode.js",
+  "type": "module",
+  "scripts": {
+    "node_1": "node --watch dev/networkNode.js --watch-path dev --watch-exclude users/** 3001",
+    "node_2": "node --watch dev/networkNode.js --watch-path dev --watch-exclude users/** 3002",
+    "node_3": "node --watch dev/networkNode.js --watch-path dev --watch-exclude users/** 3003",
+    "node_4": "node --watch dev/networkNode.js --watch-path dev --watch-exclude users/** 3004"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
